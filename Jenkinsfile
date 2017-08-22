@@ -1,5 +1,5 @@
 pipeline {
-    //agent { docker 'node:8.3' }
+    agent any
     stages {
         stage('build') {
             steps {
